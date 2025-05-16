@@ -2,13 +2,13 @@ DEPLOYMENT.md - Guía de Despliegue de la API REST
 1. Requisitos Previos
 Antes de comenzar, asegúrate de tener disponible lo siguiente:
 •	Python 3.10+ instalado en tu entorno Linux.
-•	Acceso a la máquina virtual s-viloria-api, donde se ejecutará la API.
-•	Acceso de red a la base de datos PostgreSQL desplegada en s-viloria-db.
+•	Acceso a la máquina virtual, donde se ejecutará la API.
+•	Acceso de red a la base de datos PostgreSQL desplegada en la máquina.
 •	Git para clonar el repositorio.
 ________________________________________
 2. Instalación del Proyecto
 a. Clonar el Repositorio
-Primero, clona el repositorio desde GitHub en la máquina s-viloria-api:
+Primero, clona el repositorio desde GitHub en la máquina
 bash
 CopiarEditar
 git clone https://github.com/tu-usuario/sistema-recargas-api.git
