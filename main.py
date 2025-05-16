@@ -15,7 +15,7 @@ def get_connection():
         )
         return connection
     except Exception as e:
-        print(f"❌ Error al conectar a la base de datos: {e}")
+        print(f" Error al conectar a la base de datos: {e}")
         return None
 
 # 1. Total de usuarios
@@ -32,7 +32,7 @@ def get_total_users():
         conn.close()
         return {"total_users": total}
     except Exception as e:
-        print(f"❌ Error en la consulta: {e}")
+        print(f" Error en la consulta: {e}")
         return {"error": "Error al ejecutar la consulta SQL"}
 
 # 2. Usuarios con tarjeta activa
@@ -54,7 +54,7 @@ def get_active_users():
         conn.close()
         return {"total_users_active": total}
     except Exception as e:
-        print(f"❌ Error en la consulta: {e}")
+        print(f" Error en la consulta: {e}")
         return {"error": "Error al ejecutar la consulta SQL"}
 
 # 3. Último usuario registrado
@@ -79,7 +79,7 @@ def get_latest_user():
         else:
             return {"message": "No hay usuarios registrados"}
     except Exception as e:
-        print(f"❌ Error en la consulta: {e}")
+        print(f" Error en la consulta: {e}")
         return {"error": "Error al ejecutar la consulta SQL"}
 
 # 4. Total de viajes
@@ -96,7 +96,7 @@ def get_total_trips():
         conn.close()
         return {"total_trips": total}
     except Exception as e:
-        print(f"❌ Error en la consulta: {e}")
+        print(f" Error en la consulta: {e}")
         return {"error": "Error al ejecutar la consulta SQL"}
 
 # 5. Ingresos totales
@@ -113,6 +113,6 @@ def get_total_revenue():
         conn.close()
         return {"total_revenue": total}
     except Exception as e:
-        print(f"❌ Error en la consulta: {e}")
+        print(f" Error en la consulta: {e}")
         return {"error": "Error al ejecutar la consulta SQL"}
 
