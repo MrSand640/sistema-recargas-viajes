@@ -11,7 +11,7 @@ a. Clonar el Repositorio
 Primero, clona el repositorio desde GitHub en la máquina
 bash
 CopiarEditar
-git clone https://github.com/tu-usuario/sistema-recargas-api.git
+git clone https://github.com/MrSand640/sistema-recargas-viajes.git
 cd sistema-recargas-api
 b. Crear y activar un entorno virtual
 bash
